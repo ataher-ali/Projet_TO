@@ -1,72 +1,89 @@
+import React from 'react';
 
-// Stats.jsx
-const Stats = () => (
-  // <section className=" py-12">
-  //   <div className="container mx-auto text-center">
-      
-  //     <div className="text-center mb-8">
-  //         <h4 className="text-lg font-semibold text-gray-500"></h4>
-  //         <h2 className="text-3xl font-bold">Our Achievements</h2>
-  //         <p className="text-sm text-gray-400 mt-2">
-  //           Some of the features and advantages that we provide for those of you
-  //           who store data in this data warehouse.
-  //         </p>
-  //       </div>
-  //     <div className="flex justify-around mt-8">
-  //       <div>
-  //         <h3 className="text-4xl font-bold text-blue-600">20+</h3>
-  //         <p className="mt-2 text-gray-600">Completed Projects</p>
-  //       </div>
-  //       <div>
-  //         <h3 className="text-4xl font-bold text-blue-600">500+</h3>
-  //         <p className="mt-2 text-gray-600">Manpower</p>
-  //       </div>
-  //       <div>
-  //         <h3 className="text-4xl font-bold text-blue-600">10+</h3>
-  //         <p className="mt-2 text-gray-600">Years Exprence </p>
-  //       </div>
-  //       <div>
-  //         <h3 className="text-4xl font-bold text-blue-600">95+</h3>
-  //         <p className="mt-2 text-gray-600">Upozila Covarage</p>
-  //       </div>
-  //     </div>
-  //   </div>
-  // </section>
-  <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Numbers tell our story</h2>
-            <p class="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+const Stats = () => {
+    return (
+        <div>
+            <section class="py-10 bg-white sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h4 class="text-xl font-medium text-gray-900">
+            Reliable Results You Can Count On Providing IT Solutions Worldwide
+              </h4>
         </div>
 
-        <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">
-            <div>
-                <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 6+ </span>
-                </h3>
-                <p class="mt-4 text-xl font-medium text-gray-900">Years in business</p>
-                <p class="text-base mt-0.5 text-gray-500">Creating the successful path</p>
+        <div class="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
+            <div class=" shadow-lg shadow-blue-300 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                <div class="px-4 py-6">
+                    <div class="flex items-start">
+                        <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-4xl font-bold text-gray-900">5+</h4>
+                            <p class="mt-1.5 text-sm font-medium leading-tight text-gray-500">Years in Project Managment</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 4821 </span>
-                </h3>
-                <p class="mt-4 text-xl font-medium text-gray-900">Projects delivered</p>
-                <p class="text-base mt-0.5 text-gray-500">In last 6 years</p>
+            <div class=" shadow-lg shadow-blue-300 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                <div class="px-4 py-6">
+                    <div class="flex items-start">
+                        <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-4xl font-bold text-gray-900">200+</h4>
+                            <p class="mt-1.5 text-sm font-medium leading-tight text-gray-500">Team members</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 37+ </span>
-                </h3>
-                <p class="mt-4 text-xl font-medium text-gray-900">Team members</p>
-                <p class="text-base mt-0.5 text-gray-500">Working for your success</p>
+            <div class=" shadow-lg shadow-blue-300 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                <div class="px-4 py-6">
+                    <div class="flex items-start">
+                        <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <div class="ml-4">
+                            <h4 class="text-4xl font-bold text-gray-900">50+</h4>
+                            <p class="mt-1.5 text-sm font-medium leading-tight text-gray-500">Projects delivered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" shadow-lg shadow-blue-300 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                <div class="px-4 py-6">
+                    <div class="flex items-start">
+                        {/* <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="1"
+                                d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                            />
+                        </svg> */}
+                        <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+</svg>
+
+                        <div class="ml-4">
+                            <h4 class="text-4xl font-bold text-gray-900">16+</h4>
+                            <p class="mt-1.5 text-sm font-medium leading-tight text-gray-500">
+                            District Manpower Network
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-);
+        </div>
+    );
+};
 
 export default Stats;

@@ -15,6 +15,7 @@ const Nav = () => {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
             <Link to="/" title="" className="flex items-center focus:text-blue-600 ">
+              <span className="font-semibold text-blue-700 text-base mx-2">Team</span>
               <img
                 className="w-auto h-8 lg:h-10"
                 src="../../../../public/Images/Logo/Sah Oliullah icone.png"
@@ -98,7 +99,7 @@ const Nav = () => {
           <Link 
            to="/Contact_Us"
             title=""
-            className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
+            className=" items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
             role="button"
           >
             Contact Us
@@ -151,7 +152,7 @@ const Nav = () => {
             <Link 
              to="/Contact_Us"
               title=""
-              className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md items-center hover:bg-blue-700 focus:bg-blue-700"
+              className="shadow-2xl shadow-blue-500 inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md items-center hover:bg-blue-700 focus:bg-blue-700"
               role="button"
             >
               Contact Us

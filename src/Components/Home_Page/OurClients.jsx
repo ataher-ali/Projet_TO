@@ -47,10 +47,9 @@ const OurClients = () => {
         {/* Heading */}
         <div className="text-center mb-8">
           <h4 className="text-lg font-semibold text-gray-500">Clients</h4>
-          <h2 className="text-3xl font-bold text-blue-600">Our Worldwide Clients</h2>
-          <p className="text-sm text-gray-400 mt-2">
-            Some of the features and advantages that we provide for those of you
-            who store data in this data warehouse.
+          <h2 className="text-6xl mb-8 font-bold "> <span className="text-blue-600">Respected</span> Clients and Partners</h2>
+          <p className="text-sm mx-36 text-gray-700 mt-2">
+          As a leading information technology Agency, we are proud to partner with businesses, companies, service providers, corporations, government agencies, etc. Please take a look at some of the leading businesses and organizations that have already partnered with <span className="font-bold">Team Oli Ullah</span>.
           </p>
         </div>
         {/* Heading End */}
@@ -123,6 +122,21 @@ const OurClients = () => {
           <div className="flex flex-col justify-center items-center max-h-24 min-h-20">
             <img
               src="../../../public/Images/Clients/prime_tech_logo.png"
+              alt="Client 8"
+              className="max-h-24 self-center my-3"
+            />
+          </div>
+
+          <div className="flex flex-col justify-center items-center max-h-24 min-h-20">
+            <img
+              src="../../../public/Images/Clients/Forest_Department_of_Bangladesh_logo.png"
+              alt="Client 8"
+              className="max-h-24 self-center my-3"
+            />
+          </div>
+          <div className="flex flex-col justify-center items-center max-h-24 min-h-20">
+            <img
+              src="../../../public/Images/Clients/AJO.png"
               alt="Client 8"
               className="max-h-24 self-center my-3"
             />
